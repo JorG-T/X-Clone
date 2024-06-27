@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html{
+    min-height: 100%;
+}
+body{
+    width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid lightgrey;
+    height: 100%;
+    min-height: 100%;
+ }
+
+ .a{
+    text-decoration: none;
+ }
+
+ .count p{
+    padding-left:5px;
+ }
+
+ .post-info p{
+    margin: 2px 0;
+ }
+
+
+ .count a{
+    text-decoration: none;
+ }
+
+.main header{
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid lightgrey;
+}
+
+.main header img{
+    width: 30px;
+}
+
+.main header h1{
+    padding-left: 10px;
+}
+.main form{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column ;
+    border-bottom: 1px solid lightgrey;
+}
+.main form input,.cancel{
+    
+    margin: 5px 0;
+    padding: 3px 0 0 3px;
+    height: 35px;
+    width: 90%;
+    font-size: large;
+    
+}
+.main form textarea{
+    margin: 5px 0;
+    padding: 3px 0 0 3px;
+    height: 100px;
+    width: 90%;
+    font-size: large; 
+    resize: vertical; 
+}
+.main form input[type='file']{
+    background-color: lightgray;
+    padding: 0;
+}
+::-webkit-file-upload-button{
+    height: 100%;
+}
+input[type='submit']{
+    background-color: rgb(59, 86, 207);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.count{
+    display: flex;
+    align-items: center;
+}
+.posts li{
+    border-bottom: 1px solid lightgray; 
+    padding: 10px 20px;
+    display: flex;
+    position: relative;
+}
+
+.user{
+    height: 100%;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.user img{
+    width:40px;
+}
+
+.post-info{
+    flex-basis: 85%;
+    height: 100%;
+}
+.image{
+    margin: 5px auto;
+    height: 280px;
+    width: 100%;
+    object-fit: contain;
+}
+.menu-img{
+    width: 25px;
+    cursor: pointer;
+}
+.menu{
+    position: absolute;
+    right: 10px;
+}
+.menu-butns{
+    padding: 2px;
+    color: white;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: none;
+}
+.menu-butns a{
+    display: block;
+    background-color: lightgray;
+    text-decoration:none ;
+    border-radius: 4px;
+    color: black;
+    padding: 3px;
+    font-size: x-small;
+    font-weight: bold;
+    margin: 5px 0;
+    width: 50px;
+    text-align: center;
+}
+
+.cancel{
+    text-decoration: none;
+    background-color: rgb(239, 89, 89);
+    display: grid;
+    place-items: center;
+    color: white;
+}
