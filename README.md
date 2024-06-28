@@ -11,7 +11,7 @@ Check out [LIVE DEMO](https://x-clone-titk.onrender.com) here!!
 ## Screenshot
 
 
-
+<img src='https://files.slack.com/files-tmb/T01360WELP6-F07A9FUNH2Q-622e73ee1d/screenshot_2024-06-28_at_1.55.09___pm_720.png' alt='Screenshot' width='500'/>
 
 
 
